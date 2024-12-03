@@ -15,7 +15,7 @@ with open('model.pkl', 'rb') as file:
 
 
 @app.route('/', methods=['GET'])
-def predict_diabetes():
+def main():
     return "<h1>Selamat Datang di API DS Model</h1>"
 
 # Endpoint untuk memprediksi diabetes
